@@ -12,29 +12,44 @@ in the correct position.  (Note: you don't need to connect it to a
 stylesheet or include DIV tags or anything like that).
   <!DOCTYPE html>
   <html>
-    <body>
-      <h1></h1>
-      <p></p>
-    </body>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1></h1>
+    <p></p>
+  </body>
   </html>
-
 
 4. There are two main "areas" or "sections" in the basic structure of an
 HTML page. In which area would you put a link to a stylesheet?
+
+  You put the link to the stylesheet in the head.
+
 5. In which main "area" or "section" of an HTML page would you put text,
 images or DIV tags?
+
+  You have to put them inside the body tags.
+
 6. In the space below, put one DIV tag with a class of graphicbox and a
 second DIV tag with an ID of name.
+
+  <div class="graphicbox"></div>
+  <div id="name"></div>
+
 7. In the space below, put one DIV tag with an ID of apples and a class
 of fruit.
+
+<div id="apples" class="fruit"><div>
+
 8. In the space below, write the correct CSS code to target a DIV with a
 class of fruit.  Make the color of the text black (#000000).
+
+
+
 9. What tag would we use to include an image on an HTML page? Just give
 me the name of the tag, you don't have to write out all the code.
 10. Why do we use media queries?
 11. What is the main difference between a serif and a sans-serif font?
 12. Which of the following is a hexadecimal code?
-#FFCC33
-123,543,242
-101010101
-- 213
+#FFCC33 this is the code
