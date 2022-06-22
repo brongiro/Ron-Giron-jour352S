@@ -16,6 +16,7 @@ stylesheet or include DIV tags or anything like that).
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <title></title>
     <h1></h1>
     <p></p>
   </body>
@@ -59,7 +60,7 @@ me the name of the tag, you don't have to write out all the code.
   They are used in order to make a responsive web design depending on the different sizes of the viewport, or where people are looking at it from.
 11. What is the main difference between a serif and a sans-serif font?
 
-  Serif fonts have additional little peaks or decorative elements whereas sans-serif are clean font types without the peaks or decorations. 
+  Serif fonts have additional little peaks or decorative elements whereas sans-serif are clean font types without the peaks or decorations.
 
 12. Which of the following is a hexadecimal code?
 #FFCC33 this is the code

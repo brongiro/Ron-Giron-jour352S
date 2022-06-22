@@ -9,5 +9,8 @@ body{
 .subhead{
   font-family: verdana, sans-serif;
   font-size: 20px;
+}
 
+h2, h3{
+  font-family: verdana, sans-serif;
 }
