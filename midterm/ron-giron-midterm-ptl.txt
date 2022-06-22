@@ -5,10 +5,20 @@ browser:
 <a href="https://www.google.com/" target="_blank">Google</a> is the best search engine in the world.
 
 2. Describe the purpose of a DIV tag.
+  The purpose is to be a container for HTML elements, and can then be styled using CSS. <div> tags define a section of an HTML document like text, images, header. Helps put things in container so makes it easier to style in chunks rather than one at a time.
 
 3. Write out the basic structure of an HTML page, putting the basic tags
 in the correct position.  (Note: you don't need to connect it to a
 stylesheet or include DIV tags or anything like that).
+  <!DOCTYPE html>
+  <html>
+    <body>
+      <h1></h1>
+      <p></p>
+    </body>
+  </html>
+
+
 4. There are two main "areas" or "sections" in the basic structure of an
 HTML page. In which area would you put a link to a stylesheet?
 5. In which main "area" or "section" of an HTML page would you put text,
