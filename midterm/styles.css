@@ -11,6 +11,54 @@ body{
   font-size: 20px;
 }
 
-h2, h3{
+h1, h2, h3{
   font-family: verdana, sans-serif;
+}
+
+h2{
+  font-size: 21px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.full-page{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.byline{
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+}
+
+.related-links{
+  font-size: 14px;
+
+}
+
+img{
+  width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 29.33%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.captions{
+  color: #808080;
+  font-size: 10px;
 }
