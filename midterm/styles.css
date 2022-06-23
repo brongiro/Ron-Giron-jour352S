@@ -24,8 +24,8 @@ h1{
 }
 
 .full-page{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 90px;
+  margin-right: 90px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -66,4 +66,21 @@ img{
 #masthead{
   margin-left: 100px;
   margin-right: 100px;
+}
+
+#stats{
+  width:100%
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #F0EAE6;
+  font-size: 16px;
+  border-left: 3px solid #0C5C97;
+  padding-left: 10px;
+  font-weight: bold;
 }
