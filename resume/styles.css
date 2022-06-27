@@ -8,8 +8,28 @@ body{
   font-family: Verdana, Arial, sans-serif;
 }
 
+.banner-area{
+  background-image: url(https://brongiro.github.io/Ron-Giron-jour352S/resume/banner-resume.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: auto;
 
+}
 
+.banner-area:after{
+  content: '';
+  top: 0;
+  left: 0;
+  display: block;
+  width: 110%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content-area{
+  position: fixed;
+}
 
 #name{
   border-bottom: 1px solid #33485e;
@@ -29,7 +49,7 @@ body{
   margin-right: 0;
   width: 70%;
   min-width: 300px;
-  background-color: #33485e;
+  background-color: #20304A;
   color: white;
   font-size: 20px;
   font-family: Verdana, Arial, sans-serif;
@@ -103,4 +123,5 @@ body{
 .jobtitle{
   font-size: 1.30em;
   font-weight: bold;
+  color: #20304A;
 }
