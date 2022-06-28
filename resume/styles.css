@@ -219,3 +219,11 @@ body{
   font-family: "HelveticaNeuet", "Helvetica Neue Light", "Helvetica Neue",
   Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+footer{
+  color:#20304A;
+  height: 50px;
+  text-align: center;
+  padding-top: 90px;
+  font-family: "HelveticaNeuet", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
