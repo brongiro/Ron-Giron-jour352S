@@ -13,6 +13,37 @@ body{
   width: 100%;
 }
 
+#top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+
+#top-about{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 10px;
+  color: #20304A;
+  font-size: 20px;
+  font-family: "HelveticaNeue-bold", "Helvetica Neuet", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#about-specific{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 0px;
+
+}
+
+
 #name{
   border-bottom: 1px solid #33485e;
   width: 60%;
@@ -69,9 +100,15 @@ body{
   margin: 0px;
   padding: 0px;
   text-align: center;
+
 }
 
+.vertical-menu{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 
+}
 
 
 #degrees{
@@ -107,14 +144,21 @@ body{
 #container{
   width: 100%;
   max-width: 1200px;
-  margin-left: 20px;
+  padding-left:20px;
   padding-bottom: 100px;
+  padding-right: 2px;
   padding-right: 20px;
+
 }
 
+/*the menu above 'aboute me'*/
 
 .contact-menu {
-  width: 200px; /* Set a width if you like */
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  display:inline-block;
 }
 
 .contact-menu a {
@@ -123,6 +167,8 @@ body{
   display: block; /* Make the links appear below each other */
   padding: 8px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
+  width: 100%;
+
 }
 
 .contact-menu a:hover {
@@ -130,55 +176,46 @@ body{
 }
 
 .contact-menu a.active {
-  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  background-color: #black; /* Add a green color to the "active/current" link */
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*the menu under 'about me'*/
 
 .vertical-menu {
-  width: 110px;
-  float: right;
+  width: 100%;
   padding-top: 1px;
   padding-bottom: 0px;
-  padding-right: 6px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   display:inline-block;
+
 
 }
 
 .vertical-menu a {
   background-color: #20304A; /* Grey background color */
-  color: black; /* Black text color */
+  color: white; /* Black text color */
   display: block; /* Make the links appear below each other */
-  padding: 10px; /* Add some padding */
-  text-decoration: none;
+  padding: 8px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  width: 100%;
 }
 
 .vertical-menu a:hover {
-  background-color: black; /* Dark grey background on mouse-over */
-}
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
 
 .vertical-menu a.active {
-  background-color: #20304A; /* Add a green color to the "active/current" link */
+  background-color: #black; /* Add a green color to the "active/current" link */
   color: white;
 }
+/*End of menus*/
 
 .work-links a{
   display:inline-block;
-   background-color: #20304A;
-   border:3px solid white;
-   color: white;
-   font-family: "HelveticaNeuet", "Helvetica Neue Light", "Helvetica Neue",
-   Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #20304A;
+  border:3px solid white;
+  color: white;
+  font-family: "HelveticaNeuet", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
