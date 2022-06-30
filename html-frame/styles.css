@@ -1,0 +1,41 @@
+body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#headline{
+  text-align: center;
+  font-family: 'Anek Latin', sans-serif;
+}
+
+#byline{
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Anek Latin', sans-serif;
+
+}
+
+.chapter-head{
+  font-size: 30px;
+  font-weight:bold;
+  font-family: 'Anek Latin', sans-serif;
+}
+
+
+#container{
+  width: 100%;
+  max-width: 1200px;
+  padding-left:20px;
+  padding-bottom: 100px;
+  padding-right: 2px;
+  padding-right: 20px;
+}
+
+footer{
+  color:#20304A;
+  height: 60px;
+  text-align: center;
+  padding-top: 90px;
+  font-family: "HelveticaNeuet", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
