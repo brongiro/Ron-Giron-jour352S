@@ -1,6 +1,8 @@
 body{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px;
+
 }
 
 #headline{
@@ -12,7 +14,6 @@ body{
   text-align: center;
   font-size: 13px;
   font-family: 'Anek Latin', sans-serif;
-
 }
 
 .chapter-head{
@@ -21,15 +22,25 @@ body{
   font-family: 'Anek Latin', sans-serif;
 }
 
-
+figcaption{
+  color: grey;
+  font-size: 10px;
+}
 #container{
   width: 100%;
   max-width: 1200px;
-  padding-left:20px;
-  padding-bottom: 100px;
-  padding-right: 2px;
-  padding-right: 20px;
+  padding-left:60px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+
 }
+
+.pictures img{
+  width: 400px;
+  height: auto;
+  flex: center;
+}
+
 
 footer{
   color:#20304A;
