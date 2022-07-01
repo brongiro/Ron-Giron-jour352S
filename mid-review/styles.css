@@ -1,0 +1,31 @@
+p{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body{
+  font-size: 12px;
+}
+
+.subhead{
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+}
+
+h1, h2, h3{
+  font-family: verdana, sans-serif;
+}
+
+h2{
+  font-size: 21px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.full-page{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
