@@ -63,8 +63,9 @@ blockquote {
   margin-left: 40px;
   margin-right: 40px;
   background-color: #F0EAE6;
-  font-size: 16px;
-  border-left: 3px solid #0C5C97;
+  font-size: 25px;
+  border-left: 10px solid #DE7010;
+  border-bottom: 10px solid #DE7010;
   padding-left: 10px;
   font-weight: bold;
 }
