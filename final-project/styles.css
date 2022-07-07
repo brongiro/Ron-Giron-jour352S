@@ -10,6 +10,16 @@ body{
   font-family: 'Anek Latin', sans-serif;
 }
 
+#topper{
+  font-family: 'Splash', cursive;
+  text-align: center;
+  font-size:50px;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 #byline{
   text-align: center;
   font-size: 13px;
@@ -19,7 +29,7 @@ body{
 .chapter-head{
   font-size: 30px;
   font-weight:bold;
-  font-family: 'Anek Latin', sans-serif;
+  font-family: 'Anek Latin bold',  sans-serif;
 }
 
 figcaption{
@@ -27,20 +37,37 @@ figcaption{
   font-size: 10px;
 }
 #container{
-  width: 100%;
-  max-width: 1200px;
-  padding-left:60px;
-  padding-bottom: 10px;
-  padding-right: 60px;
-
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+
+
 .pictures img{
-  width: 400px;
+  width: 100%;
   height: auto;
   flex: center;
 }
 
+img{
+  width: 100%;
+}
+
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #F0EAE6;
+  font-size: 16px;
+  border-left: 3px solid #0C5C97;
+  padding-left: 10px;
+  font-weight: bold;
+}
 
 footer{
   color:#20304A;
